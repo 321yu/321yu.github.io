@@ -4,6 +4,7 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
+  dest: 'src/.vuepress/dist',  // 强制指定
 
   locales: {
     "/": {
