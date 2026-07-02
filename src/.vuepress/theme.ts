@@ -6,12 +6,15 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
+  // 作者信息
   author: {
-    name: "Mr.Hope",
+    name: "喵屿",
     url: "https://mister-hope.com",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  // logo图标
+  //logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo1.png",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
@@ -92,7 +95,8 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "一个前端开发者",
+        // 描述
+        description: "汽车电子工程师在成长",
         intro: "/zh/intro.html",
       },
 
