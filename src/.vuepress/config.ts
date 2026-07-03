@@ -14,7 +14,7 @@ export default defineUserConfig({
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "喵屿blog",
+      title: "喵屿'blog",
       description: "vuepress-theme-hope 的blog",
     },
   },
