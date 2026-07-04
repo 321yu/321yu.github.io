@@ -41,14 +41,14 @@ export default hopeTheme({
   },
 
 
-  // 本地化
+  // 本地化，（在切换语言的时候触发）
   locales: {
     // 依旧首选英文
     "/": {
-      // navbar
+      // 英文的导航栏从这里取值
       navbar: enNavbar,
 
-      // sidebar
+      // 英文的侧边栏从这里取值
       sidebar: enSidebar,
 
       footer: "Default footer",
